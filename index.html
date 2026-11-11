@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neon Visuals — Download Client for Minecraft 1.21.4</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Arial, sans-serif; }
+        body { background-color: #09080e; color: #ffffff; line-height: 1.6; }
+        header { display: flex; justify-content: space-between; align-items: center; padding: 22px 8%; border-bottom: 1px solid rgba(255,255,255,0.06); background: #0c0a12; position: sticky; top: 0; z-index: 100; }
+        .logo { display: flex; align-items: center; gap: 12px; font-weight: 800; font-size: 20px; }
+        .logo-icon { width: 36px; height: 36px; background: linear-gradient(135deg, #734fab, #b274ff); border-radius: 10px; display: flex; align-items: center; justify-content: center; font-size: 20px; }
+        nav a { color: #9890b5; text-decoration: none; margin-left: 25px; font-weight: 600; font-size: 15px; }
+        nav a:hover { color: #ffffff; }
+        .nav-dl { background: rgba(168,85,247,0.2); border: 1px solid #a855f7; color: #e9d5ff !important; padding: 8px 16px; border-radius: 10px; }
+        .hero { text-align: center; padding: 90px 8% 60px; max-width: 900px; margin: 0 auto; }
+        .badge { display: inline-block; background: rgba(168,85,247,0.15); border: 1px solid rgba(168,85,247,0.4); color: #c084fc; padding: 6px 16px; border-radius: 20px; font-size: 13px; font-weight: 700; margin-bottom: 20px; }
+        .hero h1 { font-size: 52px; font-weight: 800; line-height: 1.15; margin-bottom: 20px; color: #f3e8ff; }
+        .hero p { color: #9890b5; font-size: 18px; max-width: 650px; margin: 0 auto 35px; }
+        .btn-primary { background: linear-gradient(135deg, #734fab, #b274ff); color: white; text-decoration: none; padding: 16px 36px; border-radius: 12px; font-weight: 700; font-size: 16px; display: inline-block; margin: 6px; box-shadow: 0 8px 25px rgba(168,85,247,0.4); }
+        .btn-primary:hover { opacity: 0.9; }
+        .btn-secondary { background: #12101c; border: 1px solid #221e33; color: white; text-decoration: none; padding: 16px 30px; border-radius: 12px; font-weight: 600; font-size: 16px; display: inline-block; margin: 6px; }
+        .showcase { padding: 30px 8% 60px; max-width: 1050px; margin: 0 auto; }
+        .preview-box { background: #12101c; border: 1px solid #2b2447; border-radius: 20px; padding: 20px; text-align: center; }
+        .preview-screen { min-height: 360px; border-radius: 14px; background: radial-gradient(circle at top right, #231942, #0b0a10); border: 1px dashed #3a2e63; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 30px; }
+        .preview-screen img { width: 100%; border-radius: 12px; }
+        .features { padding: 50px 8%; max-width: 1150px; margin: 0 auto; }
+        .section-title { text-align: center; font-size: 32px; font-weight: 800; margin-bottom: 40px; }
+        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 22px; }
+        .card { background: #12101c; border: 1px solid #221e33; border-radius: 16px; padding: 28px; }
+        .card h3 { font-size: 20px; margin-bottom: 10px; color: #e9d5ff; }
+        .card p { color: #9890b5; font-size: 15px; }
+        .download-section { padding: 70px 8%; max-width: 950px; margin: 20px auto; }
+        .download-box { background: linear-gradient(135deg, #161324, #20183a); border: 1px solid #3a2d63; border-radius: 22px; padding: 50px 30px; text-align: center; }
+        .download-box h2 { font-size: 34px; margin-bottom: 14px; }
+        .download-box p { color: #9890b5; margin-bottom: 28px; font-size: 16px; }
+        .file-info { display: inline-block; background: rgba(255,255,255,0.05); padding: 6px 14px; border-radius: 8px; font-size: 13px; color: #c084fc; margin-bottom: 22px; font-weight: 600; }
+        footer { text-align: center; padding: 35px 8%; border-top: 1px solid rgba(255,255,255,0.06); color: #9890b5; font-size: 14px; }
+        footer a { color: #c084fc; text-decoration: none; }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <div class="logo-icon">N</div>
+            <span>NEON VISUALS</span>
+        </div>
+        <nav>
+            <a href="#preview">Preview</a>
+            <a href="#features">Features</a>
+            <a href="https://t.me" target="_blank">Telegram (@qxmid)</a>
+            <a href="#download" class="nav-dl">Download</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="badge">MINECRAFT 1.21.4 FABRIC • FREE RELEASE</div>
+        <h1>Next-Level Visuals &amp; Standalone Launcher</h1>
+        <p>Smooth animations, custom neon ClickGUI, particle effects, and an all-in-one desktop launcher for Minecraft 1.21.4.</p>
+        <div>
+            <a href="NeonLauncher.exe" download class="btn-primary">Download NeonLauncher.exe</a>
+            <a href="#preview" class="btn-secondary">View Showcase</a>
+        </div>
+    </section>
+
+   <section class="showcase" id="preview">
+    <div class="preview-box">
+        <div class="preview-screen">
+            <img src="preview.png" alt="Neon Visuals Preview">
+        </div>
+    </div>
+</section>
+
+    <section class="features" id="features">
+        <h2 class="section-title">What's Included</h2>
+        <div class="grid">
+            <div class="card">
+                <h3>Custom ClickGUI</h3>
+                <p>Modern midnight-purple interface bound to Left Shift with smooth blur, animations, and automatic config saving.</p>
+            </div>
+            <div class="card">
+                <h3>Smooth Animations</h3>
+                <p>Refined hand swing animations, custom particles, clean HUD elements, and high FPS optimization on 1.21.4.</p>
+            </div>
+            <div class="card">
+                <h3>One-Click Launcher</h3>
+                <p>Pre-bundled Fabric 1.21.4 loader and client mods. Just launch, enter your nickname, and hit Play.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="download-section" id="download">
+        <div class="download-box">
+            <div class="file-info">v1.0 • Windows x64 • 126 MB • Mods Pre-Bundled</div>
+            <h2>Download Neon Visuals Client</h2>
+            <p>Click the button below to download the standalone launcher. Need a custom build? Contact <b>@qxmid</b> on Telegram.</p>
+            <a href="NeonLauncher.exe" download class="btn-primary">Download Now (NeonLauncher.exe)</a>
+        </div>
+    </section>
+
+    <footer>
+        © 2026 Neon Visuals Client • Custom Orders &amp; Support: <a href="https://t.me" target="_blank">@qxmid</a>
+    </footer>
+
+</body>
+</html>
